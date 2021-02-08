@@ -1,5 +1,5 @@
 
-
+'use strict'
 
 let name= prompt('what is your name?');
 
@@ -20,7 +20,7 @@ if (myName=='yes'|| myName =='y'){
 console.log(myName);
 
 
-let age = prompt('am I 35?');
+let age = prompt('am I 35?').toLocaleLowerCase();
 
 if (age == 'yes' || age =='y'){
 
@@ -36,9 +36,10 @@ if (age == 'yes' || age =='y'){
 }
 console.log(age);
 
-let myProffesion = prompt ('Am I a Electrical Engineer?');
 
-if (myProffesion == 'yes' || myProffession == 'y'){
+let Proffesion = prompt ('Am I an Electrical Engineer?').toLocaleLowerCase();
+
+if (Proffesion == 'yes' || Proffesion == 'y'){
 
     alert(' you are right')
 
@@ -47,9 +48,9 @@ if (myProffesion == 'yes' || myProffession == 'y'){
     alert('you are wrong, I am an electrical engineer')
 }
 
-console.log(myProffesion);
+console.log(Proffesion);
 
-let children = prompt ('how many child do I have?');
+let children = prompt ('how many child do I have?').toLocaleLowerCase();
 
 if (children == 1){
      alert('you are right')
@@ -60,9 +61,9 @@ if (children == 1){
 
 console.log(children);
 
-let university = prompt ('Did I Study at J.U.S.T university?')
+let university = prompt ('Did I Study at J.U.S.T university?').toLocaleLowerCase();
 
-if (university == 'yes' || universit =='y'){
+if (university == 'yes' || university =='y'){
 
     alert('you are right')
 
@@ -73,7 +74,7 @@ if (university == 'yes' || universit =='y'){
 
 console.log(university);
 
-
+alert('let us go'+' '+ name + '!')
 
 
 
