@@ -121,13 +121,14 @@ let movies = ['Godfather','Godfather 2', 'Godfather 3','the message','greenmile'
 
 
 
-let  ans = prompt ('what is my 3rd favourite movie?')
+let  ans;
 
 for (let i = 0 ; i<=movies.length ; i++){
 
 
-    
+    ans = prompt ('what is my 3rd favourite movie?');
     if (ans == movies[2]){
+        
         alert("good")
         score++;
 
