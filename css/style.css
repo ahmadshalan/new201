@@ -6,3 +6,28 @@ body {
 
 background-color: rgb(202, 179, 223);
 }
+
+
+header nav ul li {
+
+
+    background-color: rgb(53, 8, 8);
+    color: chartreuse;
+    list-style: none;
+
+}
+
+main nav ol li {
+
+background-color: darkblue;
+
+color: rgb(34, 6, 6);
+
+}
+
+footer nav ol li {
+
+    background-color: darkred;
+    color: yellow;
+
+}

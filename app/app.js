@@ -143,7 +143,7 @@ for (let i = 0 ; i<=movies.length ; i++){
       
 }
 
-alert(score);
+alert('you scored= '+ score+ 'out of 7');
 
 
 
