@@ -46,34 +46,37 @@ function question2() {
 }
 question2();
 
-function question3(){
-let Proffesion = prompt('Am I an Electrical Engineer?').toLocaleLowerCase();
+function question3() {
+    let Proffesion = prompt('Am I an Electrical Engineer?').toLocaleLowerCase();
 
-if (Proffesion == 'yes' || Proffesion == 'y') {
+    if (Proffesion == 'yes' || Proffesion == 'y') {
 
-    alert(' you are right')
-    score++;
+        alert(' you are right')
+        score++;
 
-} else {
+    } else {
 
-    alert('you are wrong, I am an electrical engineer')
-}
+        alert('you are wrong, I am an electrical engineer')
+    }
 
-console.log(Proffesion);
+    console.log(Proffesion);
 }
 question3();
-let children = prompt('how many child do I have?').toLocaleLowerCase();
 
-if (children == 1) {
-    alert('you are right')
-    score++;
+function question4() {
+    let children = prompt('how many child do I have?').toLocaleLowerCase();
 
-} else {
-    alert('you are wrong, I have one')
+    if (children == 1) {
+        alert('you are right')
+        score++;
+
+    } else {
+        alert('you are wrong, I have one')
+    }
+
+    console.log(children);
 }
-
-console.log(children);
-
+question4();
 let university = prompt('Did I Study at J.U.S.T university?').toLocaleLowerCase();
 
 if (university == 'yes' || university == 'y') {
