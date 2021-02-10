@@ -1,7 +1,7 @@
 
 'use strict';
 
-
+function question1() {
 let name= prompt('what is your name?');
 let score=0;
 
@@ -23,7 +23,8 @@ if (myName=='yes'|| myName =='y'){
 }
 
 console.log(myName);
-
+}
+question1();
 
 let age = prompt('am I 35?').toLocaleLowerCase();
 
