@@ -101,31 +101,32 @@ question5();
 
 
 
-
-for (let i = 0; i <= 5; i++) {
-
-
-    let old = prompt('how old I am?');
+function question6() {
+    for (let i = 0; i <= 5; i++) {
 
 
-    if (old < 28) {
+        let old = prompt('how old I am?');
 
-        alert('you are too low, try again')
-    } else if (old > 40) {
 
-        alert('you are too high, try again')
-    } else if (old > 32 && old < 40) {
-        alert('you are close , try again')
+        if (old < 28) {
 
-    } else if (old == 32) {
+            alert('you are too low, try again')
+        } else if (old > 40) {
 
-        alert('good answer');
-        score++;
+            alert('you are too high, try again')
+        } else if (old > 32 && old < 40) {
+            alert('you are close , try again')
 
-        break;
+        } else if (old == 32) {
+
+            alert('good answer');
+            score++;
+
+            break;
+        }
     }
 }
-
+question6();
 
 
 
