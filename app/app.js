@@ -46,6 +46,7 @@ function question2() {
 }
 question2();
 
+function question3(){
 let Proffesion = prompt('Am I an Electrical Engineer?').toLocaleLowerCase();
 
 if (Proffesion == 'yes' || Proffesion == 'y') {
@@ -59,7 +60,8 @@ if (Proffesion == 'yes' || Proffesion == 'y') {
 }
 
 console.log(Proffesion);
-
+}
+question3();
 let children = prompt('how many child do I have?').toLocaleLowerCase();
 
 if (children == 1) {
