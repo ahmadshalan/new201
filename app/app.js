@@ -129,35 +129,36 @@ question6();
 
 
 
-
-let movies = ['Godfather', 'Godfather 2', 'Godfather 3', 'the message', 'greenmile', 'the dark knight', 'joker', 'Inception', 'Magic', 'kill bill']
-
-
-
-let ans;
-
-for (let i = 0; i <= movies.length; i++) {
+function question7() {
+    let movies = ['Godfather', 'Godfather 2', 'Godfather 3', 'the message', 'greenmile', 'the dark knight', 'joker', 'Inception', 'Magic', 'kill bill']
 
 
-    ans = prompt('what is my 3rd favourite movie?');
-    if (ans == movies[2]) {
 
-        alert("good")
-        score++;
+    let ans;
 
-        break;
+    for (let i = 0; i <= movies.length; i++) {
 
-    } else {
 
-        alert('try again')
+        ans = prompt('what is my 3rd favourite movie?');
+        if (ans == movies[2]) {
 
+            alert("good")
+            score++;
+
+            break;
+
+        } else {
+
+            alert('try again')
+
+
+        }
 
     }
 
+    alert('you scored= ' + score + 'out of 7');
 }
-
-alert('you scored= ' + score + 'out of 7');
-
+question7();
 
 
 
