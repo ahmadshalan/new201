@@ -1,9 +1,11 @@
 
 'use strict';
 
+let score = 0;
+
 function question1() {
     let name = prompt('what is your name?');
-    let score = 0;
+    
 
     alert('welcome' + ' [' + name + ']!' + ' ' + 'let us play a game');
 
@@ -45,6 +47,7 @@ function question2() {
     console.log(age);
 }
 question2();
+
 
 function question3() {
     let Proffesion = prompt('Am I an Electrical Engineer?').toLocaleLowerCase();
