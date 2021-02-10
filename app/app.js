@@ -78,22 +78,26 @@ function question4() {
 }
 question4();
 
-let university = prompt('Did I Study at J.U.S.T university?').toLocaleLowerCase();
 
-if (university == 'yes' || university == 'y') {
+function question5() {
+    let university = prompt('Did I Study at J.U.S.T university?').toLocaleLowerCase();
 
-    alert('you are right')
-    score++;
+    if (university == 'yes' || university == 'y') {
 
-} else {
-    alert('you are wrong, I did')
+        alert('you are right')
+        score++;
 
+    } else {
+        alert('you are wrong, I did')
+
+    }
+
+    console.log(university);
+
+
+    alert('let us go' + ' ' + name + '!')
 }
-
-console.log(university);
-
-alert('let us go' + ' ' + name + '!')
-
+question5();
 
 
 
