@@ -1,6 +1,7 @@
 header h1 {
 
     text-align: center;
+    font-family: 'Dancing Script', cursive;
 }
 body {
 
@@ -15,6 +16,8 @@ header nav ul li {
     color: chartreuse;
     list-style: none;
 
+    font-family: 'Dancing Script', cursive;
+
 }
 
 main nav ol li {
@@ -22,6 +25,8 @@ main nav ol li {
 background-color: darkblue;
 
 color: rgb(34, 6, 6);
+font-family: 'Dancing Script', cursive;
+
 
 }
 
@@ -29,5 +34,36 @@ footer nav ol li {
 
     background-color: darkred;
     color: yellow;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+#Cube {
+
+    background-color: darkred;
+    position: relative;
+    left: 40px;
+}
+
+#circle {
+
+    background-color: burlywood;
+    position: relative;
+    left: 30px;
+}
+
+#triangle {
+
+
+    background-color: cyan;
+    position: relative;
+    left: 20px;
+}
+
+#square {
+
+    background-color: darkmagenta;
+    position: relative;
+    left: 10px;
 
 }
