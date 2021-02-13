@@ -5,7 +5,7 @@ let score = 0;
 
 function question1() {
     let name = prompt('what is your name?');
-    
+
 
     alert('welcome' + ' [' + name + ']!' + ' ' + 'let us play a game');
 
@@ -133,36 +133,36 @@ question6();
 
 
 
-function question7() {
-    let movies = ['Godfather', 'Godfather 2', 'Godfather 3', 'the message', 'greenmile', 'the dark knight', 'joker', 'Inception', 'Magic', 'kill bill']
 
 
 
-    let ans;
-
-    for (let i = 0; i <= movies.length; i++) {
+let movies = ['Godfather', 'Godfather 2', 'Godfather 3', 'the message', 'greenmile', 'the dark knight', 'joker', 'Inception']
 
 
-        ans = prompt('what is my 3rd favourite movie?');
-        if (ans == movies[2]) {
+for (let i = 0; i <= 6; i++) {
 
-            alert("good")
+
+    let ans = prompt('what is my favourite movie?');
+
+
+    for (let j = 0; j <= movies.length; j++) {
+        if (ans == movies[j]) {
+
+            alert('good job');
+
+            i=7;
             score++;
-
             break;
 
-        } else {
-
-            alert('try again')
-
-
-        }
-
+        } 
     }
-
-    alert('you scored= ' + score + 'out of 7');
 }
-question7();
+
+alert(`my favourite movies are: ${movies}`);
+
+alert('Thank you for playing, you have got :' + score + 'out of 7');
+
+
 
 
 
